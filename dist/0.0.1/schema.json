@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "data": {
+      "properties": {
+        "title":{
+          "type": "string",
+          "title": "Title"
+        },
+        "chart_url": {
+          "id": "/properties/data/properties/youtube_url",
+          "type": "string",
+          "title": "Url"
+        },
+        "col16-height":{
+          "type":"number",
+          "title":"Height of chart in col-16"
+        },
+        "col7-height":{
+          "type":"number",
+          "title":"Height of chart in col-7"
+        },
+        "col4-height":{
+          "type":"number",
+          "title":"Height of chart in col-4"
+        }
+      },
+      "type": "object",
+      "required": [
+        "chart_url",
+        "title",
+        "height"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ],
+  "type": "object"
+}
