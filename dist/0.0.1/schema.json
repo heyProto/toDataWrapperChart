@@ -31,7 +31,9 @@
       "required": [
         "chart_url",
         "title",
-        "height"
+        "col16-height",
+        "col7-height",
+        "col4-height"
       ]
     }
   },

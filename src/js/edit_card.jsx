@@ -191,11 +191,11 @@ export default class EditCard extends React.Component {
               <div className="twelve wide column proto-card-preview proto-share-card-div">
                 <div className="protograph-menu-container">
                   <div className="ui compact menu">
-                    <a className={`item ${this.state.mode === 'col4' ? 'active' : ''}`}
-                      data-mode='col4'
+                    <a className={`item ${this.state.mode === 'col16' ? 'active' : ''}`}
+                      data-mode='col16'
                       onClick={(e) => this.toggleMode(e)}
                     >
-                      col-4
+                      col-16
                     </a>
                     <a className={`item ${this.state.mode === 'col7' ? 'active' : ''}`}
                       data-mode='col7'
@@ -203,11 +203,11 @@ export default class EditCard extends React.Component {
                     >
                       col-7
                     </a>
-                    <a className={`item ${this.state.mode === 'col16' ? 'active' : ''}`}
-                      data-mode='col16'
+                    <a className={`item ${this.state.mode === 'col4' ? 'active' : ''}`}
+                      data-mode='col4'
                       onClick={(e) => this.toggleMode(e)}
                     >
-                      col-16
+                      col-4
                     </a>
                   </div>
                 </div>
